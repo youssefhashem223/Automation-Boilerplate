@@ -14,7 +14,7 @@ path_to_add = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 sys.path.append(path_to_add)
 
 
-def login(wait, driver):
+def login(wait, _driver):
     """"
     Login from the application.
     """

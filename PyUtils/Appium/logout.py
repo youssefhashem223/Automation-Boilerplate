@@ -14,7 +14,7 @@ path_to_add = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 sys.path.append(path_to_add)
 
 
-def logout(wait, driver):
+def logout(wait, _driver):
     """"
     Logout from the application.
     """
