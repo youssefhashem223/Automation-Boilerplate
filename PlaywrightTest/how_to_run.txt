@@ -1,0 +1,17 @@
+Open element inspector
+
+```powershell
+npx playwright codegen https://
+```
+
+Open UI for watching and selecting tests
+
+```powershell
+npx playwright test --ui
+```
+
+Run all test
+
+```powershell
+npx playwright test
+```
